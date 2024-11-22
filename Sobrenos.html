@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós - Projeto de Biofertilizantes</title>
+    
+    <!-- Link para fontes modernas do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Link para o ícone da página -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"> Voltar <style> 
+            
+.navbar-brand {
+    background-color: #4CAF50; 
+    color: white;    
+    padding: 10px 20px;  
+    border: none; 
+    font-size: 16px;  
+    cursor: pointer;   
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+.navbar-brand:hover {
+    background-color: #0d5f10; 
+    transform: scale(1.5);
+}
+
+/* Efeito ao pressionar o botão */
+.navbar-brand:active {
+    transform: scale(1); 
+}
+
+/* Estilo para o foco (quando o botão é clicado ou selecionado com tab) */
+.navbar-brand:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); 
+}
+
+            </style></a>
+        </div> 
+        </nav> 
+
+    <style>
+        /* Estilos globais */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e3f2fd;
+            color: #333;
+            background-image: url('https://encolombia.com/wp-content/uploads/2020/01/Agricultura.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: rgba(76, 175, 80, 0.8); /* Cor com opacidade */
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+            border-bottom: 3px solid #4CAF50;
+            border-radius: 0 0 20px 20px;
+            backdrop-filter: blur(5px);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        header p {
+            font-size: 1.4em;
+            font-weight: 400;
+            margin-top: 10px;
+        }
+
+        /* Conteúdo principal */
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+            border-radius: 12px;
+            backdrop-filter: blur(5px);
+        }
+        .container h2 {
+            font-family: 'Montserrat', sans-serif;
+            color: #4CAF50;
+            font-size: 2.4em;
+            margin-bottom: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .container p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: #555;
+            text-align: justify;
+        }
+        .container p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 25px 0;
+            font-size: 1em;
+            margin-top: 40px;
+            border-top: 3px solid #4CAF50;
+            border-radius: 20px 20px 0 0;
+        }
+        footer p {
+            margin: 5px;
+        }
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        footer a:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        /* Botões */
+        .btn-contato {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.2em;
+            cursor: pointer;
+            display: inline-block;
+            text-decoration: none;
+            margin-top: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-contato:hover {
+            background-color: #45a049;
+            transform: translateY(-3px);
+        }
+
+        /* Animação para o conteúdo */
+        .container, footer {
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 1s forwards;
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Estilo para imagens */
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            .container h2 {
+                font-size: 2em;
+            }
+
+            .container p {
+                font-size: 1.1em;
+            }
+
+            .btn-contato {
+                padding: 10px 20px;
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Projeto Biofertilizantes</h1>
+        <p>Promovendo Sustentabilidade nas Hortas Escolares</p>
+    </header>
+    
+    <!-- Conteúdo Principal -->
+    <div class="container">
+        <h2>Sobre Nós</h2>
+        
+        <!-- Adicionando uma imagem para um visual mais interessante -->
+        <div class="image-container">
+            <img src="https://www.revistaprocampo.com.br/wp-content/uploads/2018/07/agronomo-1024x576.jpg" alt="Imagem do Projeto">
+        </div>
+        
+        <p>Somos um grupo de estudantes comprometidos com a criação de um projeto inovador para a escola: o desenvolvimento de biofertilizantes naturais. Nosso objetivo é oferecer uma alternativa sustentável e ecológica para o cultivo de alimentos, contribuindo com o cuidado e o crescimento das hortas escolares.</p>
+    
+        <p>Este projeto nos permite aprender sobre práticas sustentáveis e explorar a importância dos fertilizantes naturais na agricultura, conectando-nos de maneira prática e significativa com o meio ambiente. Através do nosso trabalho, queremos impactar a comunidade escolar e incentivar a adoção de práticas agrícolas mais conscientes e saudáveis.</p>
+    
+        <p>O biofertilizante que estamos desenvolvendo será doado para a escola, fortalecendo a sustentabilidade local e promovendo o conhecimento sobre a importância dos recursos naturais para a saúde do solo e das plantas. Acreditamos que esta é uma maneira eficaz de aplicar o que aprendemos em sala de aula e de contribuir para um futuro mais verde e responsável.</p>
+    
+        <p>Convidamos toda a comunidade a conhecer mais sobre o nosso trabalho e a fazer parte deste movimento em prol da natureza e da alimentação saudável. Juntos, podemos transformar o ambiente escolar em um espaço de aprendizado e cuidado com o meio ambiente!</p>
+        
+        <!-- Botão de contato -->
+        <a href="#" class="btn-contato">Entrar em Contato</a>
+    </div>
+    
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Projeto Biofertilizantes - Todos os direitos reservados</p>
+        <p>Desenvolvido por estudantes comprometidos com o meio ambiente | <a href="#">Contato</a></p>
+    </footer>
+    
+</body>
+</html>
